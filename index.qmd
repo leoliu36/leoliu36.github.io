@@ -1,0 +1,17 @@
+---
+title: "Welcome to Leo’s Website"
+author: "Leo Liu"
+date: "2025-09-06"
+format:
+  html:
+    theme: journal
+    toc: true
+---
+
+# Hello, World! 👋
+
+Welcome to my Quarto website. Here's what you'll find:
+
+- 🚀 Git & GitHub tutorials
+- 📊 Data science projects
+- 📝 Lab reports for AD688
