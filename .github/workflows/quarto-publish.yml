@@ -25,4 +25,4 @@ jobs:
         with:
           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}   # 👈 inject GH_PAT as GITHUB_TOKEN
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
