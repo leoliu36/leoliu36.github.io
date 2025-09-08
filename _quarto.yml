@@ -5,3 +5,7 @@ format:
   html:
     theme: journal
     toc: true
+
+execute:
+  enabled: true
+  engine: jupyter
