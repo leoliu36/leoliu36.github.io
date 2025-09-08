@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome to Leo’s Website",
     "section": "",
-    "text": "Hello, World! 👋\nWelcome to my Quarto website. Here’s what you’ll find:\n\n🚀 Git & GitHub tutorials\n📊 Data science projects\n📝 Lab reports for AD688"
+    "text": "Hello, World!\nWelcome to my Quarto website. Here’s what you’ll find:\n\nData science projects\nAssignments and Reports for AD688\n\nimport pandas as pd df = pd.DataFrame({“x”: [1, 2, 3], “y”: [4, 5, 6]}) df.head()"
   },
   {
     "objectID": "about.html",
