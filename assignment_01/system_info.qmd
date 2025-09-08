@@ -5,6 +5,9 @@ author: "Your Name"
 format: 
   docx: default
 ---
+
+
+```{python}
 import platform
 import psutil
 
@@ -16,3 +19,4 @@ print("Processor:", platform.processor())
 mem = psutil.virtual_memory()
 print("Total Memory (MB):", round(mem.total / (1024**2), 2))
 print("Available Memory (MB):", round(mem.available / (1024**2), 2))
+```
