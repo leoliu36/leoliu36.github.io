@@ -1,15 +1,18 @@
 ---
-title: "System Verification Document"
-format: docx
-author: "Leo Liu"
-date: "`r Sys.Date()`"
+title: "Assignment 01"
+subtitle: "System Information Proof"
+author: "Your Name"
+format: 
+  docx: default
 ---
-
-## System Information
-
-```{python}
 import platform
-import sys
-print(platform.platform())
-print(sys.version)
-```
+import psutil
+
+print("Operating System:", platform.system(), platform.release())
+print("Python Version:", platform.python_version())
+print("Machine:", platform.machine())
+print("Processor:", platform.processor())
+
+mem = psutil.virtual_memory()
+print("Total Memory (MB):", round(mem.total / (1024**2), 2))
+print("Available Memory (MB):", round(mem.available / (1024**2), 2))
