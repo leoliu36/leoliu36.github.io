@@ -8,10 +8,14 @@ format:
     toc: true
 ---
 
-# Hello, World! 👋
+# Hello, World! 
 
 Welcome to my Quarto website. Here's what you'll find:
 
-- 🚀 Git & GitHub tutorials
-- 📊 Data science projects
-- 📝 Lab reports for AD688
+- Data science projects
+- Assignments and Reports for AD688
+
+```{python}
+import pandas as pd
+df = pd.DataFrame({"x": [1, 2, 3], "y": [4, 5, 6]})
+df.head()
