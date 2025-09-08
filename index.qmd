@@ -18,4 +18,5 @@ Welcome to my Quarto website. Here's what you'll find:
 ```{python}
 import pandas as pd
 df = pd.DataFrame({"x": [1, 2, 3], "y": [4, 5, 6]})
-df.head()```
+df.head()
+```
