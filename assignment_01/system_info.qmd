@@ -1,0 +1,15 @@
+---
+title: "System Verification Document"
+format: docx
+author: "Leo Liu"
+date: "`r Sys.Date()`"
+---
+
+## System Information
+
+```{python}
+import platform
+import sys
+print(platform.platform())
+print(sys.version)
+```
